@@ -1,0 +1,28 @@
+{
+  "name": "js-training-battery",
+  "version": "1.0.0",
+  "description": "- The tests are in the file \"test/tests.js\". You do not need to change any code in the test file!\r - The tests need the functions in the file \"js/xxx/index.js\" to be implemented.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafaertekin/js-training-battery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mustafaertekin/js-training-battery/issues"
+  },
+  "homepage": "https://github.com/mustafaertekin/js-training-battery#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "mocha": "^4.0.1",
+    "should": "^13.1.2"
+  }
+}

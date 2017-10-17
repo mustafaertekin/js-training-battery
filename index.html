@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>IT Club Oberland - JS Training</title>
@@ -9,21 +9,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="js/lib/normalize/normalize.css">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/app.css">
-
-
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    
 
-    
-    
-    
-    <script src="js/battery/index.js"></script>
-    <script src="js/main.js"></script>
+    <div id="main">
+        <div class="status-bar">
+            <input id="ranger" type="range" min="0" max="4">
+        </div>
+
+        <button id='autoChargeButton'>Auto Charge</button>
+
+        <div id='container'>
+            <div id='battery-top'>
+                <div id='battery-top1'></div>
+                <div id='battery-top2'></div>
+            </div>
+            <div class="cell green"></div>
+            <div class="cell green yellow"></div>
+            <div class="cell green yellow orange"></div>
+            <div class="cell green yellow orange red"></div>
+        </div>
+
+        <script src="js/battery/index.js"></script>
+        <script src="js/main.js"></script>
+    </div>
 </body>
+
 </html>
