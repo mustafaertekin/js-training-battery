@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('#ranger').val(4);
+    $('#ranger').val(0);
 
     $('#ranger').on('change', function (a) {
         changeColor($(this).val());
