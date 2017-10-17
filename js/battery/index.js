@@ -56,4 +56,8 @@ function autoCharge() {
     setTimeout(function () {
         changeColor(4);
     }, 4000);
+    
+    setTimeout(function(){
+        autoCharge();
+    },5000);
 }
